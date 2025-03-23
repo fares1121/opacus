@@ -7,3 +7,9 @@ bring in all the required packages in these examples:
 ```
 pip install opacus[dev]
 ```
+
+## Example Scripts
+
+- `char-lstm-classification.py`: Character-level LSTM classification with differential privacy.
+- `cifar10.py`: CIFAR-10 image classification with differential privacy.
+- `video_classification.py`: Video classification with differential privacy.
