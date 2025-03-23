@@ -28,7 +28,7 @@ class VideoDataset(Dataset):
 
     def load_video(self, path):
         # Implement video loading logic here
-        pass
+        raise NotImplementedError('Video loading not implemented.')
 
 def get_data_loaders(batch_size):
     transform = transforms.Compose([
